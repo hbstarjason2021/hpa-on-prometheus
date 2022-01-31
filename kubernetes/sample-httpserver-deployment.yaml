@@ -21,7 +21,7 @@ spec:
         app: sample-httpserver
     spec:
       containers:
-        - image: addozhang/httpserver-n-metrics:latest
+        - image: hbstarjason/httpserver-n-metrics:latest
           name: httpserver-n-metrics
           ports:
             - containerPort: 3000
